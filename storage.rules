@@ -1,0 +1,10 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      // Regla de Permisos Corregida: Permitir lectura y escritura a todos
+      // Esto resuelve el error (storage/unauthorized) en el emulador.
+      allow read, write: if true; 
+    }
+  }
+}

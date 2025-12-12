@@ -1,0 +1,30 @@
+
+/* Reset Básico */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/*Tipografía y Fondo General (Opción 1) */
+body {
+  min-height: 100vh;
+  color: #2c3e50; /* Gris oscuro para legibilidad */
+  background: #f7f9fc; /* Fondo gris muy suave para dar profundidad */
+  line-height: 1.6;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*Contenedor Principal para Vistas */
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
