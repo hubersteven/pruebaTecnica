@@ -62,9 +62,9 @@ El Hosting funciona correctamente, PERO:
 
  Por lo tanto:
 
-🔹 El procesamiento ZIP  
-🔹 La descompresión  
-🔹 Las URL firmadas  
+- El procesamiento ZIP  
+- La descompresión  
+- Las URL firmadas  
 
 **Solo funcionan dentro de los EMULADORES**, que es exactamente lo que pide la prueba técnica.
 
@@ -239,15 +239,16 @@ pruebaTecnica/
 
 # Estado del Proyecto
 
-✔ Hosting funcionando
-✔ Emuladores funcionando
-✔ Procesamiento ZIP funcional
-✔ Descarga con nombre original
-✔ Cumple todos los requisitos de la Prueba Técnica
+- Hosting funcionando
+- Emuladores funcionando
+- Procesamiento ZIP funcional
+- Descarga con nombre original
+- Cumple todos los requisitos de la Prueba Técnica
 
 ---
 
 # Autor
 
 Huber  Steven Arroyave Rojas
+
 Proyecto desarrollado como parte de la Prueba Técnica.
